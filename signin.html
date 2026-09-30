@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sign in | Stackly Academy</title>
+<meta name="description" content="Sign in to Stackly Academy.">
+<link rel="icon" href="logo-light.webp" type="image/webp">
+<link rel="preload" href="libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a><div class="auth-top"><a class="brand" href="index.html" data-splash aria-label="Stackly Academy home"><img src="logo-light.webp" alt="Stackly" width="137" height="40"></a></div><div class="splash" id="splash" hidden><img src="logo-light.webp" alt="Stackly" width="137" height="40"></div><main id="main" class="auth">
+  <div class="auth__form"><div class="auth__card"><div class="book__bar" style="margin-bottom:24px"><strong>Stackly Academy</strong><span>Sign in</span></div>
+    <p class="eyebrow">Welcome back</p><p class="kicker">Students and staff use the same page</p>
+    <h1>Sign in <em class="acc">to your dashboard</em></h1>
+    <p class="note" id="created-note" hidden role="status">Account created. Sign in with the email and password you just chose.</p>
+    <form class="form" data-validate="signin" aria-label="Sign in">
+      <div class="field roles-wrap"><span class="lbl" id="role-l">I am a</span><div class="roles" role="radiogroup" aria-labelledby="role-l"><label class="role" for="role-student"><input type="radio" id="role-student" name="role" value="student" data-v="radio"><span class="role__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg></span><span class="role__t">Student</span><span class="role__s">Classes, projects and fees</span></label><label class="role" for="role-staff"><input type="radio" id="role-staff" name="role" value="staff" data-v="radio"><span class="role__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><span class="role__t">Staff</span><span class="role__s">Batches, enrolments and enquiries</span></label></div></div>
+      <div class="field"><label for="email">Email</label><input class="inp" id="email" name="email" type="email" data-v="email" maxlength="64" autocomplete="email"></div>
+      <div class="field"><label for="password">Password</label><div class="pw"><input class="inp" id="password" name="password" type="password" data-v="password" maxlength="32" autocomplete="current-password"><button class="pw__t" type="button" aria-label="Show password" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
+      <div class="field"><label class="check" for="remember"><input type="checkbox" id="remember" name="remember" data-v="check" data-msg="Tick Remember me to continue."><span class="box"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#fff" stroke-width="2.4" aria-hidden="true"><path d="M3 8.5l3.2 3L13 5"/></svg></span><span class="txt">Remember me on this device</span></label></div>
+      <p class="forgot"><a href="404.html">Forgotten your password?</a></p>
+      <button class="btn btn--solid" type="submit" style="width:100%">Sign in</button>
+    </form>
+    <p class="auth__alt">New to Stackly Academy? <a class="inline-link" href="signup.html">Create account</a></p></div></div>
+  <div class="auth__media"><img src="auth-signin.webp" alt="A learner with glasses studying at a laptop by tall sunlit windows" fetchpriority="high"><p class="auth__quote">Your projects, attendance and fees, in one place.</p></div>
+</main>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-t"><div class="modal__box"><h2 id="modal-t">Notice</h2><p></p><button class="btn btn--solid" type="button">OK</button></div></div>
+<script src="script.js"></script>
+</body>
+</html>

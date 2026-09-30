@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Staff dashboard | Stackly Academy</title>
+<meta name="description" content="Staff dashboard">
+<link rel="icon" href="logo-light.webp" type="image/webp">
+<link rel="preload" href="libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="dash-body">
+<header class="dhdr">
+  <button class="dhdr__menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="side"><svg width="18" height="14" viewBox="0 0 20 14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 1h20M0 7h20M0 13h20"/></svg></button>
+  <a class="brand" href="index.html" data-splash aria-label="Stackly Academy home"><img src="logo-light.webp" alt="Stackly" width="137" height="40"></a>
+  <span class="dhdr__tag" data-role-tag>Staff</span>
+  <div class="dhdr__right"><a class="dhdr__bell" href="404.html" aria-label="Notifications, 3 unread"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 16V11a6 6 0 0112 0v5l2 2H4zM10 20a2 2 0 004 0"/></svg><i></i></a>
+    <a class="btn btn--solid" href="signin.html" data-logout>Log out</a></div>
+</header>
+<div class="dash">
+  <aside class="side" id="side" aria-label="Dashboard"><nav><p class="side__title">Staff menu</p><a href="404.html" aria-current=page><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l9-7 9 7v9H3z"/></svg>Overview</a><a href="404.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c1-5 13-5 14 0M16 4a3.5 3.5 0 010 7M19 14c2 1 3 3 3 6"/></svg>Learners</a><a href="404.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h7v16H4zM13 4h7v16h-7z"/></svg>Courses</a><a href="404.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 13l3-8h12l3 8v6H3zM3 13h5l1 3h6l1-3h5"/></svg>Enquiries</a><a href="404.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Reports</a><a href="404.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg>Settings</a></nav></aside>
+  <main class="dmain" id="main"><section class="welcome" aria-labelledby="w-t"><div><p class="eyebrow">Staff dashboard</p><p class="kicker">Admissions and batches, January 2027 intake</p>
+      <h1 id="w-t"><span data-greet>Welcome back</span> <em class="acc">here is today's queue</em></h1></div><a class="btn btn--solid pill" href="courses.html">View public courses <i><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 7h11M7 2l5 5-5 5"/></svg></i></a></section>
+    <div class="metrics"><div><p class="m-n" data-fx="counter" data-to="186"><span class="cv">0</span></p><p class="m-l">Active learners</p></div><div><p class="m-n" data-fx="counter" data-to="42"><span class="cv">0</span></p><p class="m-l">New enrolments this week</p></div><div><p class="m-n" data-fx="counter" data-to="7"><span class="cv">0</span></p><p class="m-l">Open enquiries</p></div><div><p class="m-n" data-fx="counter" data-to="81"><span class="cv">0</span><span class=suf>%</span></p><p class="m-l">Seats filled, January</p></div></div>
+    <div class="dcols">
+      <section class="dcard" aria-labelledby="enr-t"><h2 id="enr-t">Recent enrolments</h2>
+        <div class="tbl-wrap rv" data-rv="up"><table class="tbl"><caption class="sr">Recent enrolments</caption><thead><tr><th scope="col">Learner</th><th scope="col">Course</th><th scope="col">Starts</th><th scope="col">Status</th></tr></thead><tbody><tr><td data-label="Learner">Aishwarya Raman</td><td data-label="Course">Full-Stack Web</td><td data-label="Starts">12 Jan 2027</td><td data-label="Status"><span class="tag tag--ok">Paid</span></td></tr><tr><td data-label="Learner">Naveen Prakash</td><td data-label="Course">Java Backend</td><td data-label="Starts">12 Jan 2027</td><td data-label="Status"><span class="tag tag--warn">Instalment due</span></td></tr><tr><td data-label="Learner">Sneha Murugan</td><td data-label="Course">UI/UX Design</td><td data-label="Starts">12 Jan 2027</td><td data-label="Status"><span class="tag tag--ok">Paid</span></td></tr><tr class="low"><td data-label="Learner">Cloud and DevOps</td><td data-label="Course">Classroom batch</td><td data-label="Starts">12 Jan 2027</td><td data-label="Status"><span class="tag tag--bad">3 seats left</span></td></tr><tr><td data-label="Learner">Rahul Venkatesh</td><td data-label="Course">Data Analytics</td><td data-label="Starts">19 Jan 2027</td><td data-label="Status"><span class="tag tag--info">Test pending</span></td></tr></tbody></table></div></section>
+      <section class="dcard" aria-labelledby="ec-t"><h2 id="ec-t">Enrolments by course</h2>
+        <div class="vchart" data-fx="vchart" role="img" aria-label="Enrolments: Full-stack 48, Java 31, Cloud 42, UI/UX 29, Data 22, Marketing 14">
+          <div data-v="48"><em></em><b></b><span>Web</span></div><div data-v="31"><em></em><b></b><span>Java</span></div><div data-v="42"><em></em><b></b><span>Cloud</span></div>
+          <div data-v="29"><em></em><b></b><span>UX</span></div><div data-v="22"><em></em><b></b><span>Data</span></div><div data-v="14"><em></em><b></b><span>Mktg</span></div></div></section>
+    </div>
+    <div class="dcols">
+      <section class="dcard" aria-labelledby="tq-t"><h2 id="tq-t">Enquiry queue</h2><ul class="list">
+        <li><span>Callback: fees for Cloud and DevOps, Deepa S.</span><span class="tag tag--bad">Overdue 2h</span></li>
+        <li><span>Batch change request, Karthik R.</span><span class="tag tag--warn">Today</span></li>
+        <li><span>Scholarship documents, Anjali P.</span><span class="tag tag--warn">Today</span></li>
+        <li><span>Campus tour booking, Rajesh K.</span><span class="tag tag--info">Saturday</span></li></ul></section>
+      <section class="dcard" aria-labelledby="ac-t"><h2 id="ac-t">Add a course batch</h2>
+        <form class="form" data-validate="course" aria-label="Add a course batch">
+          <div class="field"><label for="a-name">Course name</label><input class="inp" id="a-name" name="cname" type="text" data-v="required" maxlength="60"></div>
+          <div class="form__row"><div class="field"><label for="a-seats">Number of students</label><input class="inp" id="a-seats" name="seats" type="text" data-v="range" maxlength="3" inputmode="numeric" data-min="1" data-max="120"></div><div class="field"><label for="a-fee">Fee in rupees</label><input class="inp" id="a-fee" name="fee" type="text" data-v="fee" maxlength="6" inputmode="numeric"></div></div>
+          <div class="form__row"><div class="field"><label for="a-start">Start date</label><input class="inp" id="a-start" name="start" type="date" data-v="future"></div><div class="field"><label for="a-mode">Mode</label><select class="inp" id="a-mode" name="mode" data-v="select"><option value="">Choose a mode</option><option>Classroom</option><option>Live online</option></select></div></div>
+          <button class="btn btn--solid" type="submit" style="justify-self:start">Add batch</button></form></section>
+    </div></main>
+</div>
+<div class="splash" id="splash" hidden><img src="logo-light.webp" alt="Stackly" width="137" height="40"></div>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-t"><div class="modal__box"><h2 id="modal-t">Notice</h2><p></p><button class="btn btn--solid" type="button">OK</button></div></div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admissions | Stackly Academy</title>
+<meta name="description" content="Admission process, eligibility, scholarships and a fee calculator for Stackly Academy courses.">
+<link rel="icon" href="logo-light.webp" type="image/webp">
+<link rel="preload" href="libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="hdr">
+  <a class="brand" href="index.html" data-splash aria-label="Stackly Academy home"><img src="logo-light.webp" alt="Stackly" width="137" height="40"><span class="brand__sub">Academy</span></a>
+  <nav class="hdr__nav" aria-label="Main"><a href="index.html">Home</a><a href="courses.html">Courses</a><a href="admissions.html" aria-current="page">Admissions</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+  <a class="btn btn--solid hdr__signin" href="signin.html">Sign in</a>
+  <button class="hdr__burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mmenu"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 1h20M0 7h20M0 13h20"/></svg></button>
+</header>
+<div class="mmenu" id="mmenu" hidden><nav aria-label="Mobile"><a href="index.html">Home</a><a href="courses.html">Courses</a><a href="admissions.html" aria-current="page">Admissions</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav><div class="mmenu__cta"><a class="btn btn--line" href="signin.html">Sign in</a><a class="btn btn--solid" href="signup.html">Create account</a></div></div>
+<div class="splash" id="splash" hidden><img src="logo-light.webp" alt="Stackly" width="137" height="40"></div><main id="main">
+<section class="hero hero--page" aria-labelledby="page-title">
+  <img class="hero__bg" src="hero-admissions.webp" alt="A modern white campus building with tall windows under a blue sky with clouds" fetchpriority="high">
+  <svg class="trail" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true"><path d="M-20 200 C 380 40, 900 230, 1330 40" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3 10" vector-effect="non-scaling-stroke"/><path d="M1330 40 l26 -14 -8 22 z" fill="currentColor"/></svg>
+  <div class="page-card" data-tilt="7">
+    <div class="book__bar"><strong>Stackly Academy</strong><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-current="page">Admissions</span></nav></div>
+    <p class="eyebrow">Admissions</p><p class="kicker">January 2027 intake is open</p>
+    <h1 id="page-title">Admissions <em class="acc">in four clear steps</em></h1>
+    <p class="lead">Apply online in ten minutes. Work out your exact fee below, including scholarships, before you pay anything.</p>
+    <a class="btn btn--solid pill" href="signup.html">Create account to apply <i><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 7h11M7 2l5 5-5 5"/></svg></i></a>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="proc-t">
+  <div class="wrap">
+    <div class="sh rv" data-rv="up"><p class="eyebrow">Process</p><p class="kicker">What happens after you apply</p><h2 id="proc-t">Four steps <em class="acc">from form to first class</em></h2></div>
+    <ol class="steps">
+      <li class="rv" data-rv="up"><h3>Apply online</h3><p>Create an account and fill in the application. It takes about ten minutes.</p></li>
+      <li class="rv" data-rv="up" style="--d:.08s"><h3>Aptitude check</h3><p>A 40-minute online test within three days. Results arrive the same evening.</p></li>
+      <li class="rv" data-rv="up" style="--d:.16s"><h3>Counsellor call</h3><p>We confirm your course, batch and any scholarship on a 20-minute call.</p></li>
+      <li class="rv" data-rv="up" style="--d:.24s"><h3>Pay and join</h3><p>Pay in full or the first instalment. Your welcome kit arrives a week before class.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec sec--alt" aria-labelledby="elig-t">
+  <div class="wrap split">
+    <div><div class="sh rv" data-rv="up"><p class="eyebrow">Eligibility</p><p class="kicker">Who can apply</p><h2 id="elig-t">Requirements <em class="acc">kept deliberately simple</em></h2></div>
+      <p class="lead">We care more about how you think than where you studied. The aptitude check places you in a batch; it rarely rules anyone out.</p></div>
+    <dl class="dl rv" data-rv="up"><dt>Education</dt><dd>Completed degree or diploma in any subject, or final-year students graduating before the batch starts</dd><dt>Age</dt><dd>18 or older on the first day of class</dd><dt>Language</dt><dd>Comfortable reading English; spoken English improves quickly in class</dd><dt>Equipment</dt><dd>A laptop with 8 GB RAM for online learners; campus learners use our labs</dd><dt>Documents</dt><dd>Aadhaar card, degree certificate or final-semester marksheet</dd></dl>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="calc-t">
+  <div class="wrap split">
+    <div><div class="sh rv" data-rv="up"><p class="eyebrow">Fee calculator</p><p class="kicker">Your exact fee, before you apply</p><h2 id="calc-t">Work out <em class="acc">what you will pay</em></h2></div>
+      <p class="lead">Change any option and the total updates instantly. The counsellor will confirm the same figure on your call.</p></div>
+    <div class="card card--cream rv" data-rv="right" data-fx="calc"><div class="card__body">
+      <form class="form" aria-label="Fee calculator">
+        <div class="field" style="padding-bottom:16px"><label for="c-course">Course</label><select class="inp" id="c-course" name="course"><option value="">Choose a course</option><option value="fullstack" data-fee="68000">Full-Stack Web Development (₹68,000)</option><option value="java" data-fee="62000">Java Backend Engineering (₹62,000)</option><option value="cloud" data-fee="74000">Cloud and DevOps (₹74,000)</option><option value="uiux" data-fee="48000">UI/UX Design (₹48,000)</option><option value="data" data-fee="56000">Data Analytics with Python (₹56,000)</option><option value="marketing" data-fee="38000">Digital Marketing (₹38,000)</option></select></div>
+        <div class="form__row">
+          <div class="field" style="padding-bottom:16px"><label for="c-mode">Mode</label><select class="inp" id="c-mode" name="mode"><option value="classroom">Classroom, Salem</option><option value="online">Live online (10% off)</option></select></div>
+          <div class="field" style="padding-bottom:16px"><label for="c-sch">Scholarship</label><select class="inp" id="c-sch" name="scholarship"><option value="0">None</option><option value="0.2">Merit (20%)</option><option value="0.15">Women in tech (15%)</option><option value="0.15">First graduate in family (15%)</option></select></div>
+        </div>
+        <div class="field" style="padding-bottom:16px"><label for="c-plan">Payment</label><select class="inp" id="c-plan" name="plan"><option value="full">Pay in full (5% off)</option><option value="emi">Three instalments</option></select></div>
+      </form>
+      <ul class="list calc__lines" aria-live="polite"></ul>
+      <div class="card__foot" style="border-top:2px solid var(--cream-line)"><span>Total payable</span><span class="price num calc__total" style="font-size:2.2rem">₹0</span></div>
+    </div></div>
+  </div>
+</section>
+
+<section class="sec sec--alt" aria-labelledby="sch-t">
+  <div class="wrap">
+    <div class="sh rv" data-rv="up"><p class="eyebrow">Scholarships</p><p class="kicker">Applied automatically when you qualify</p><h2 id="sch-t">Scholarships <em class="acc">and who qualifies</em></h2></div>
+    <div class="tbl-wrap rv" data-rv="up"><table class="tbl"><caption class="sr">Scholarships</caption><thead><tr><th scope="col">Scholarship</th><th scope="col">Who qualifies</th><th scope="col" class=r>Discount</th><th scope="col" class=r>Seats per batch</th></tr></thead><tbody><tr><td data-label="Scholarship">Merit</td><td data-label="Who qualifies">Top 10 percent in the aptitude check</td><td data-label="Discount" class=r><span class="num">20%</span></td><td data-label="Seats per batch" class=r><span class="num">5</span></td></tr><tr><td data-label="Scholarship">Women in tech</td><td data-label="Who qualifies">Women joining a Technology stream course</td><td data-label="Discount" class=r><span class="num">15%</span></td><td data-label="Seats per batch" class=r><span class="num">No limit</span></td></tr><tr><td data-label="Scholarship">First graduate</td><td data-label="Who qualifies">First in your family to hold a degree</td><td data-label="Discount" class=r><span class="num">15%</span></td><td data-label="Seats per batch" class=r><span class="num">8</span></td></tr><tr><td data-label="Scholarship">Alumni referral</td><td data-label="Who qualifies">Referred by a Stackly Academy graduate</td><td data-label="Discount" class=r><span class="num">₹5,000</span></td><td data-label="Seats per batch" class=r><span class="num">No limit</span></td></tr></tbody></table></div>
+    <p class="caveat rv" data-rv="up">Only one percentage scholarship applies per learner; the alumni referral can be added to any of them.</p>
+  </div>
+</section>
+
+<figure class="band" aria-label="Graduation">
+  <img src="band-admissions.webp" alt="Graduates in black caps and gowns with gold stoles seated in rows at a ceremony" loading="lazy">
+  <div class="wrap"><blockquote>Graduation day is the second-best day. The best one is your first salary slip.</blockquote><figcaption>Sowmya Ravi, Data Analytics, 2024</figcaption></div>
+</figure>
+
+<section class="sec" aria-labelledby="afaq-t">
+  <div class="wrap">
+    <div class="sh rv" data-rv="up"><p class="eyebrow">Admission questions</p><p class="kicker">Answers before you apply</p><h2 id="afaq-t">Common questions <em class="acc">about admissions</em></h2></div>
+    <div class="faq rv" data-rv="up"><details><summary>Is there an application fee?</summary><p>No. Applying and taking the aptitude check are free. You pay only after the counsellor call, once you are sure.</p></details><details><summary>What if I fail the aptitude check?</summary><p>You can retake it once after seven days. Most learners who retake it pass after reviewing the free practice set.</p></details><details><summary>Can I get a refund?</summary><p>Yes. Leave within the first 14 days of class and we refund 90 percent. After that, fees are not refundable, but you can defer to a later batch once.</p></details><details><summary>Do you offer education loans?</summary><p>We work with two lenders who offer loans at 11 to 13 percent interest. The counsellor can share details; we do not earn a commission on them.</p></details></div>
+  </div>
+</section>
+
+<section class="sec sec--alt" aria-labelledby="cta3-t">
+  <div class="wrap"><div class="cta-book rv" data-rv="flip" data-tilt="0">
+    <div><p class="eyebrow">Start now</p><p class="kicker">Ten minutes to apply, free to cancel</p><h2 id="cta3-t">Create your account <em class="acc">and begin the application</em></h2></div>
+    <div class="cta-book__side"><p>Your account keeps your application, test result and fee plan in one place.</p><a class="btn btn--solid pill" href="signup.html">Create account <i><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 7h11M7 2l5 5-5 5"/></svg></i></a></div>
+  </div></div>
+</section>
+</main><footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div class="ftr__brand"><a class="brand" href="index.html" data-splash aria-label="Stackly Academy home"><img src="logo-dark.webp" alt="Stackly" width="137" height="40"></a>
+        <p>12 Omalur Main Road, Salem, Tamil Nadu 636004. Office open Monday to Saturday, 9 am to 7 pm.</p>
+        <div class="social"><a href="404.html" aria-label="Stackly Academy on Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a><a href="404.html" aria-label="Stackly Academy on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7"/></svg></a><a href="404.html" aria-label="Stackly Academy on YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a><a href="404.html" aria-label="Stackly Academy on X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20"/></svg></a></div></div>
+      <div><h2>Navigate</h2><ul><li><a href="index.html">Home</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h2>Courses</h2><ul><li><a href="404.html">Full-stack web</a></li><li><a href="404.html">Java backend</a></li><li><a href="404.html">UI/UX design</a></li><li><a href="404.html">Data analytics</a></li></ul></div>
+      <div><h2>Resources</h2><ul><li><a href="404.html">Blog</a></li><li><a href="404.html">Careers</a></li><li><a href="404.html">Privacy policy</a></li><li><a href="404.html">Terms and conditions</a></li></ul></div>
+    </div>
+    <div class="ftr__base"><span>© 2026 Stackly Academy, a Stackly Technologies company</span><span>admissions@stacklyacademy.in · +91 427 245 0190</span></div>
+  </div>
+</footer>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-t"><div class="modal__box"><h2 id="modal-t">Notice</h2><p></p><button class="btn btn--solid" type="button">OK</button></div></div>
+<script src="script.js"></script>
+</body>
+</html>

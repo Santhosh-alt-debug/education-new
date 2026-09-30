@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Courses | Stackly Academy</title>
+<meta name="description" content="Six career courses with fees, levels and batch timings. Filter by stream, level and fee range.">
+<link rel="icon" href="logo-light.webp" type="image/webp">
+<link rel="preload" href="libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="hdr">
+  <a class="brand" href="index.html" data-splash aria-label="Stackly Academy home"><img src="logo-light.webp" alt="Stackly" width="137" height="40"><span class="brand__sub">Academy</span></a>
+  <nav class="hdr__nav" aria-label="Main"><a href="index.html">Home</a><a href="courses.html" aria-current="page">Courses</a><a href="admissions.html">Admissions</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+  <a class="btn btn--solid hdr__signin" href="signin.html">Sign in</a>
+  <button class="hdr__burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mmenu"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 1h20M0 7h20M0 13h20"/></svg></button>
+</header>
+<div class="mmenu" id="mmenu" hidden><nav aria-label="Mobile"><a href="index.html">Home</a><a href="courses.html" aria-current="page">Courses</a><a href="admissions.html">Admissions</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav><div class="mmenu__cta"><a class="btn btn--line" href="signin.html">Sign in</a><a class="btn btn--solid" href="signup.html">Create account</a></div></div>
+<div class="splash" id="splash" hidden><img src="logo-light.webp" alt="Stackly" width="137" height="40"></div><main id="main">
+<section class="hero hero--page" aria-labelledby="page-title">
+  <img class="hero__bg" src="hero-courses.webp" alt="Learners working on laptops and notebooks in a tiered wooden lecture hall" fetchpriority="high">
+  <svg class="trail" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true"><path d="M-20 200 C 380 40, 900 230, 1330 40" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3 10" vector-effect="non-scaling-stroke"/><path d="M1330 40 l26 -14 -8 22 z" fill="currentColor"/></svg>
+  <div class="page-card" data-tilt="7">
+    <div class="book__bar"><strong>Stackly Academy</strong><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-current="page">Courses</span></nav></div>
+    <p class="eyebrow">Courses</p><p class="kicker">Six career programmes, three to six months each</p>
+    <h1 id="page-title">All courses <em class="acc">with fees shown upfront</em></h1>
+    <p class="lead">Filter by stream, level and budget. Every fee includes study material, cloud credits and placement support, with no hidden charges.</p>
+    
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="list-t">
+  <div class="wrap">
+    <div class="sh rv" data-rv="up"><p class="eyebrow">Find your course</p><p class="kicker">Filter by what matters to you</p><h2 id="list-t">Compare the six <em class="acc">side by side</em></h2></div>
+    <form class="filters rv" data-rv="up" id="filters" aria-label="Filter courses">
+      <div class="field" style="padding-bottom:0"><label for="f-cat">Stream</label><select class="inp" id="f-cat" name="category"><option value="">All streams</option><option value="technology">Technology</option><option value="design">Design</option><option value="business">Business</option></select></div>
+      <div class="field" style="padding-bottom:0"><label for="f-lvl">Level</label><select class="inp" id="f-lvl" name="level"><option value="">All levels</option><option value="beginner">Beginner</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select></div>
+      <div class="field" style="padding-bottom:0"><label for="f-fee">Fee range</label><select class="inp" id="f-fee" name="fee"><option value="">Any fee</option><option value="lt50">Under ₹50,000</option><option value="50to65">₹50,000 to ₹65,000</option><option value="gt65">Above ₹65,000</option></select></div>
+      <button class="btn btn--line" type="reset">Clear filters</button>
+      <p class="filters__count" id="f-count" aria-live="polite">Showing 6 of 6 courses</p>
+    </form>
+    <p class="sr" id="toggle-status" aria-live="polite"></p>
+    <div class="grid g3"><article class="card rv" data-rv="up" style="--d:0.0s" data-course data-category="technology" data-level="beginner" data-fee="68000">
+      <img class="card__img" src="course-fullstack.webp" alt="A monitor showing React code in a code editor beside a laptop, lit by a desk lamp" loading="lazy" width="800" height="500">
+      <div class="card__body"><div class="card__meta"><span class="tag">Technology</span><span class="tag">Beginner</span><span class="tag tag--info">6 months</span></div>
+        <h3 style="margin-top:12px">Full-Stack Web Development</h3><p class="card__desc">HTML, CSS, JavaScript, React and Node.js, ending in a deployed product built with a four-person team.</p>
+        <div class="card__foot"><span class="price num">₹68,000</span><div class="card__acts">
+          <button class="icon-btn" type="button" data-toggle="saved" data-name="Full-Stack Web Development" aria-pressed="false" aria-label="Add to saved: Full-Stack Web Development"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+          <button class="icon-btn" type="button" data-toggle="compare" data-name="Full-Stack Web Development" aria-pressed="false" aria-label="Add to compare: Full-Stack Web Development"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3v18M16 3v18M3 8h5M16 16h5"/></svg></button></div></div>
+        <a class="btn btn--line" href="course-detail.html" style="margin-top:16px">View course</a></div></article><article class="card rv" data-rv="up" style="--d:0.08s" data-course data-category="technology" data-level="intermediate" data-fee="62000">
+      <img class="card__img" src="course-java.webp" alt="Close-up of colourful program code on a dark screen" loading="lazy" width="800" height="500">
+      <div class="card__body"><div class="card__meta"><span class="tag">Technology</span><span class="tag">Intermediate</span><span class="tag tag--info">5 months</span></div>
+        <h3 style="margin-top:12px">Java Backend Engineering</h3><p class="card__desc">Core Java, Spring Boot, REST APIs, SQL and testing, practised on a banking-style ledger service.</p>
+        <div class="card__foot"><span class="price num">₹62,000</span><div class="card__acts">
+          <button class="icon-btn" type="button" data-toggle="saved" data-name="Java Backend Engineering" aria-pressed="false" aria-label="Add to saved: Java Backend Engineering"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+          <button class="icon-btn" type="button" data-toggle="compare" data-name="Java Backend Engineering" aria-pressed="false" aria-label="Add to compare: Java Backend Engineering"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3v18M16 3v18M3 8h5M16 16h5"/></svg></button></div></div>
+        <a class="btn btn--line" href="course-detail.html" style="margin-top:16px">View course</a></div></article><article class="card rv" data-rv="up" style="--d:0.16s" data-course data-category="technology" data-level="advanced" data-fee="74000">
+      <img class="card__img" src="course-cloud.webp" alt="A row of black server racks with mesh doors in a data centre" loading="lazy" width="800" height="500">
+      <div class="card__body"><div class="card__meta"><span class="tag">Technology</span><span class="tag">Advanced</span><span class="tag tag--info">4 months</span></div>
+        <h3 style="margin-top:12px">Cloud and DevOps</h3><p class="card__desc">Linux, Docker, Kubernetes, CI pipelines and AWS, with every lab run on real cloud accounts.</p>
+        <div class="card__foot"><span class="price num">₹74,000</span><div class="card__acts">
+          <button class="icon-btn" type="button" data-toggle="saved" data-name="Cloud and DevOps" aria-pressed="false" aria-label="Add to saved: Cloud and DevOps"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+          <button class="icon-btn" type="button" data-toggle="compare" data-name="Cloud and DevOps" aria-pressed="false" aria-label="Add to compare: Cloud and DevOps"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3v18M16 3v18M3 8h5M16 16h5"/></svg></button></div></div>
+        <a class="btn btn--line" href="course-detail.html" style="margin-top:16px">View course</a></div></article><article class="card rv" data-rv="up" style="--d:0.0s" data-course data-category="design" data-level="beginner" data-fee="48000">
+      <img class="card__img" src="course-uiux.webp" alt="A hand-drawn website wireframe in a spiral notebook with a blue pen and a phone" loading="lazy" width="800" height="500">
+      <div class="card__body"><div class="card__meta"><span class="tag">Design</span><span class="tag">Beginner</span><span class="tag tag--info">4 months</span></div>
+        <h3 style="margin-top:12px">UI/UX Design</h3><p class="card__desc">User research, wireframes, Figma design systems and usability testing, finishing with three case studies.</p>
+        <div class="card__foot"><span class="price num">₹48,000</span><div class="card__acts">
+          <button class="icon-btn" type="button" data-toggle="saved" data-name="UI/UX Design" aria-pressed="false" aria-label="Add to saved: UI/UX Design"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+          <button class="icon-btn" type="button" data-toggle="compare" data-name="UI/UX Design" aria-pressed="false" aria-label="Add to compare: UI/UX Design"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3v18M16 3v18M3 8h5M16 16h5"/></svg></button></div></div>
+        <a class="btn btn--line" href="course-detail.html" style="margin-top:16px">View course</a></div></article><article class="card rv" data-rv="up" style="--d:0.08s" data-course data-category="business" data-level="intermediate" data-fee="56000">
+      <img class="card__img" src="course-datascience.webp" alt="Hands typing on two laptops surrounded by printed pie charts and data tables" loading="lazy" width="800" height="500">
+      <div class="card__body"><div class="card__meta"><span class="tag">Business</span><span class="tag">Intermediate</span><span class="tag tag--info">5 months</span></div>
+        <h3 style="margin-top:12px">Data Analytics with Python</h3><p class="card__desc">Excel, SQL, Python with pandas and Power BI dashboards, built from real retail and sales data.</p>
+        <div class="card__foot"><span class="price num">₹56,000</span><div class="card__acts">
+          <button class="icon-btn" type="button" data-toggle="saved" data-name="Data Analytics with Python" aria-pressed="false" aria-label="Add to saved: Data Analytics with Python"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+          <button class="icon-btn" type="button" data-toggle="compare" data-name="Data Analytics with Python" aria-pressed="false" aria-label="Add to compare: Data Analytics with Python"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3v18M16 3v18M3 8h5M16 16h5"/></svg></button></div></div>
+        <a class="btn btn--line" href="course-detail.html" style="margin-top:16px">View course</a></div></article><article class="card rv" data-rv="up" style="--d:0.16s" data-course data-category="business" data-level="beginner" data-fee="38000">
+      <img class="card__img" src="course-marketing.webp" alt="A tablet showing a website traffic dashboard with a pie chart, next to a coffee cup" loading="lazy" width="800" height="500">
+      <div class="card__body"><div class="card__meta"><span class="tag">Business</span><span class="tag">Beginner</span><span class="tag tag--info">3 months</span></div>
+        <h3 style="margin-top:12px">Digital Marketing</h3><p class="card__desc">SEO, paid search, social media and analytics, managed on a live budget for a local business.</p>
+        <div class="card__foot"><span class="price num">₹38,000</span><div class="card__acts">
+          <button class="icon-btn" type="button" data-toggle="saved" data-name="Digital Marketing" aria-pressed="false" aria-label="Add to saved: Digital Marketing"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+          <button class="icon-btn" type="button" data-toggle="compare" data-name="Digital Marketing" aria-pressed="false" aria-label="Add to compare: Digital Marketing"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3v18M16 3v18M3 8h5M16 16h5"/></svg></button></div></div>
+        <a class="btn btn--line" href="course-detail.html" style="margin-top:16px">View course</a></div></article></div>
+    <p class="empty" id="f-empty" hidden>No course matches those filters. Clear one filter to see more options.</p>
+  </div>
+</section>
+
+<section class="sec sec--alt" aria-labelledby="batch-t">
+  <div class="wrap">
+    <div class="sh rv" data-rv="up"><p class="eyebrow">Batch timings</p><p class="kicker">Pick a slot that fits your day</p><h2 id="batch-t">Morning, evening <em class="acc">or weekend batches</em></h2></div>
+    <div class="tbl-wrap rv" data-rv="up"><table class="tbl"><caption class="sr">Batch timings for January 2027</caption><thead><tr><th scope="col">Course</th><th scope="col">Batch</th><th scope="col">Timing</th><th scope="col">Starts</th><th scope="col">Mode</th></tr></thead><tbody><tr><td data-label="Course">Full-Stack Web Development</td><td data-label="Batch">Weekday evenings</td><td data-label="Timing">6:30 pm to 9:00 pm</td><td data-label="Starts">12 Jan 2027</td><td data-label="Mode">Classroom and live online</td></tr><tr><td data-label="Course">Java Backend Engineering</td><td data-label="Batch">Weekday mornings</td><td data-label="Timing">7:00 am to 9:30 am</td><td data-label="Starts">12 Jan 2027</td><td data-label="Mode">Classroom and live online</td></tr><tr><td data-label="Course">Cloud and DevOps</td><td data-label="Batch">Weekends</td><td data-label="Timing">Sat and Sun, 10 am to 4 pm</td><td data-label="Starts">12 Jan 2027</td><td data-label="Mode">Classroom and live online</td></tr><tr><td data-label="Course">UI/UX Design</td><td data-label="Batch">Weekday evenings</td><td data-label="Timing">6:30 pm to 9:00 pm</td><td data-label="Starts">12 Jan 2027</td><td data-label="Mode">Classroom and live online</td></tr><tr><td data-label="Course">Data Analytics with Python</td><td data-label="Batch">Weekday mornings</td><td data-label="Timing">7:00 am to 9:30 am</td><td data-label="Starts">12 Jan 2027</td><td data-label="Mode">Classroom and live online</td></tr><tr><td data-label="Course">Digital Marketing</td><td data-label="Batch">Weekends</td><td data-label="Timing">Sat and Sun, 10 am to 4 pm</td><td data-label="Starts">12 Jan 2027</td><td data-label="Mode">Classroom and live online</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="choose-t">
+  <div class="wrap split">
+    <div><div class="sh rv" data-rv="up"><p class="eyebrow">How to choose</p><p class="kicker">A quick guide from our counsellors</p><h2 id="choose-t">Which stream <em class="acc">suits your background</em></h2></div>
+      <p class="lead">If you are unsure, book a free 20-minute call. Counsellors are paid a salary, not a commission, so they have no reason to push the costliest course.</p></div>
+    <dl class="dl rv" data-rv="up"><dt>You enjoy logic and puzzles</dt><dd>Technology stream: start with Full-Stack Web, or Java Backend if you already know a language.</dd><dt>You notice bad layouts everywhere</dt><dd>Design stream: UI/UX Design, no coding needed.</dd><dt>You like numbers and people</dt><dd>Business stream: Data Analytics with Python or Digital Marketing.</dd><dt>You already work in IT support</dt><dd>Cloud and DevOps, which assumes basic Linux and networking.</dd><dt>You have three months or less</dt><dd>Digital Marketing is the shortest programme at 12 weeks.</dd></dl>
+  </div>
+</section>
+
+<section class="sec night" aria-labelledby="inc-t">
+  <div class="wrap">
+    <div class="sh rv" data-rv="up"><p class="eyebrow">Included</p><p class="kicker">In every course fee</p><h2 id="inc-t">What you get <em class="acc">beyond the classes</em></h2></div>
+    <div class="grid g4">
+      <div class="card card--cream rv" data-rv="up"><div class="card__body"><h3>Mentor reviews</h3><p class="card__desc">A named mentor reviews your code or designs every Friday, in writing and on call.</p></div></div>
+      <div class="card card--cream rv" data-rv="up" style="--d:.08s"><div class="card__body"><h3>Lab access</h3><p class="card__desc">Campus labs open 8 am to 10 pm, plus ₹8,000 in cloud credits for online learners.</p></div></div>
+      <div class="card card--cream rv" data-rv="up" style="--d:.16s"><div class="card__body"><h3>Recorded sessions</h3><p class="card__desc">Every class recorded and posted within three hours, kept for one year after you finish.</p></div></div>
+      <div class="card card--cream rv" data-rv="up" style="--d:.24s"><div class="card__body"><h3>Placement support</h3><p class="card__desc">Mock interviews, CV reviews and introductions to more than 60 hiring partners.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="pq-t">
+  <div class="wrap"><h2 class="sr" id="pq-t">From our head of curriculum</h2>
+    <figure class="pullq rv" data-rv="zoom"><blockquote>We rewrite a fifth of every syllabus each year. If a tool stops showing up in job posts from our partners, it stops showing up in our classes.</blockquote>
+    <figcaption>Anitha Krishnan, Head of Curriculum</figcaption></figure></div>
+</section>
+</main><footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div class="ftr__brand"><a class="brand" href="index.html" data-splash aria-label="Stackly Academy home"><img src="logo-dark.webp" alt="Stackly" width="137" height="40"></a>
+        <p>12 Omalur Main Road, Salem, Tamil Nadu 636004. Office open Monday to Saturday, 9 am to 7 pm.</p>
+        <div class="social"><a href="404.html" aria-label="Stackly Academy on Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a><a href="404.html" aria-label="Stackly Academy on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7"/></svg></a><a href="404.html" aria-label="Stackly Academy on YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a><a href="404.html" aria-label="Stackly Academy on X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20"/></svg></a></div></div>
+      <div><h2>Navigate</h2><ul><li><a href="index.html">Home</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h2>Courses</h2><ul><li><a href="404.html">Full-stack web</a></li><li><a href="404.html">Java backend</a></li><li><a href="404.html">UI/UX design</a></li><li><a href="404.html">Data analytics</a></li></ul></div>
+      <div><h2>Resources</h2><ul><li><a href="404.html">Blog</a></li><li><a href="404.html">Careers</a></li><li><a href="404.html">Privacy policy</a></li><li><a href="404.html">Terms and conditions</a></li></ul></div>
+    </div>
+    <div class="ftr__base"><span>© 2026 Stackly Academy, a Stackly Technologies company</span><span>admissions@stacklyacademy.in · +91 427 245 0190</span></div>
+  </div>
+</footer>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-t"><div class="modal__box"><h2 id="modal-t">Notice</h2><p></p><button class="btn btn--solid" type="button">OK</button></div></div>
+<script src="script.js"></script>
+</body>
+</html>

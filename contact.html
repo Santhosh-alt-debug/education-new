@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Stackly Academy</title>
+<meta name="description" content="Contact Stackly Academy in Salem: phone, email, enquiry form, campus location and office hours.">
+<link rel="icon" href="logo-light.webp" type="image/webp">
+<link rel="preload" href="libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="hdr">
+  <a class="brand" href="index.html" data-splash aria-label="Stackly Academy home"><img src="logo-light.webp" alt="Stackly" width="137" height="40"><span class="brand__sub">Academy</span></a>
+  <nav class="hdr__nav" aria-label="Main"><a href="index.html">Home</a><a href="courses.html">Courses</a><a href="admissions.html">Admissions</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Contact</a></nav>
+  <a class="btn btn--solid hdr__signin" href="signin.html">Sign in</a>
+  <button class="hdr__burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mmenu"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 1h20M0 7h20M0 13h20"/></svg></button>
+</header>
+<div class="mmenu" id="mmenu" hidden><nav aria-label="Mobile"><a href="index.html">Home</a><a href="courses.html">Courses</a><a href="admissions.html">Admissions</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Contact</a></nav><div class="mmenu__cta"><a class="btn btn--line" href="signin.html">Sign in</a><a class="btn btn--solid" href="signup.html">Create account</a></div></div>
+<div class="splash" id="splash" hidden><img src="logo-light.webp" alt="Stackly" width="137" height="40"></div><main id="main">
+<section class="hero hero--page" aria-labelledby="page-title">
+  <img class="hero__bg" src="hero-contact.webp" alt="The white and navy information desk in a bright library with wooden shelving and a curved slatted ceiling" fetchpriority="high">
+  <svg class="trail" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true"><path d="M-20 200 C 380 40, 900 230, 1330 40" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3 10" vector-effect="non-scaling-stroke"/><path d="M1330 40 l26 -14 -8 22 z" fill="currentColor"/></svg>
+  <div class="page-card" data-tilt="7">
+    <div class="book__bar"><strong>Stackly Academy</strong><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-current="page">Contact</span></nav></div>
+    <p class="eyebrow">Contact</p><p class="kicker">We reply within one working day</p>
+    <h1 id="page-title">Get in touch <em class="acc">and talk to a real counsellor</em></h1>
+    <p class="lead">Call, write or walk in. Counsellors answer questions about courses, fees and batches; they do not work on commission.</p>
+    
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="enq-t">
+  <div class="wrap split" style="align-items:start">
+    <div><div class="sh rv" data-rv="up"><p class="eyebrow">Enquiry</p><p class="kicker">Tell us what you want to learn</p><h2 id="enq-t">Send us <em class="acc">a quick enquiry</em></h2></div>
+      <dl class="dl rv" data-rv="up"><dt>Phone</dt><dd>+91 427 245 0190, Monday to Saturday</dd><dt>Email</dt><dd>admissions@stacklyacademy.in</dd><dt>WhatsApp</dt><dd>+91 94432 18760</dd><dt>Walk in</dt><dd>12 Omalur Main Road, Salem 636004</dd></dl></div>
+    <div class="card card--cream rv" data-rv="right"><div class="card__body"><form class="form" data-validate="enquiry" aria-label="Enquiry form">
+      <div class="form__row"><div class="field"><label for="e-first">First name</label><input class="inp" id="e-first" name="first" type="text" data-v="name" maxlength="16" autocomplete="given-name"></div><div class="field"><label for="e-last">Last name</label><input class="inp" id="e-last" name="last" type="text" data-v="name" maxlength="16" autocomplete="family-name"></div></div>
+      <div class="form__row"><div class="field"><label for="e-email">Email</label><input class="inp" id="e-email" name="email" type="email" data-v="email" maxlength="64" autocomplete="email"></div><div class="field"><label for="e-phone">Phone</label><input class="inp" id="e-phone" name="phone" type="tel" data-v="phone" maxlength="10" autocomplete="tel-national" inputmode="numeric"></div></div>
+      <div class="form__row"><div class="field"><label for="e-pin">Pincode</label><input class="inp" id="e-pin" name="pincode" type="text" data-v="pincode" maxlength="6" autocomplete="postal-code" inputmode="numeric"></div><div class="field"><label for="e-age">Age</label><input class="inp" id="e-age" name="age" type="text" data-v="range" maxlength="2" inputmode="numeric" data-min="16" data-max="60"></div></div>
+      <div class="form__row"><div class="field"><label for="e-course">Course of interest</label><select class="inp" id="e-course" name="course" data-v="select"><option value="">Choose a course</option><option value="fullstack">Full-Stack Web Development</option><option value="java">Java Backend Engineering</option><option value="cloud">Cloud and DevOps</option><option value="uiux">UI/UX Design</option><option value="data">Data Analytics with Python</option><option value="marketing">Digital Marketing</option></select></div><div class="field"><label for="e-start">Preferred start date</label><input class="inp" id="e-start" name="start" type="date" data-v="future"></div></div>
+      <div class="field"><label for="e-msg">Message</label><textarea class="inp" id="e-msg" name="message" data-v="text" maxlength="600"></textarea></div>
+      <button class="btn btn--solid" type="submit" style="justify-self:start">Send enquiry</button>
+    </form></div></div>
+  </div>
+</section>
+
+<figure class="band" aria-label="Campus from above">
+  <img src="band-contact.webp" alt="Aerial view of the campus lawn framed by curved walkways, hedges and residence blocks" loading="lazy">
+  <div class="wrap"><blockquote>Five minutes from the new bus stand, with parking for two-wheelers inside the gate.</blockquote><figcaption>Campus directions</figcaption></div>
+</figure>
+
+<section class="sec" aria-labelledby="loc-t">
+  <div class="wrap split">
+    <div><div class="sh rv" data-rv="up"><p class="eyebrow">Campus location</p><p class="kicker">Omalur Main Road, Salem</p><h2 id="loc-t">Finding <em class="acc">the campus</em></h2></div>
+      <dl class="dl rv" data-rv="up"><dt>By bus</dt><dd>Get off at Five Roads; the campus is 400 m north on Omalur Main Road</dd><dt>By train</dt><dd>Salem Junction is 6 km away, about 20 minutes by auto</dd><dt>By car</dt><dd>Parking for 40 cars behind the main block, free for visitors</dd><dt>Landmark</dt><dd>Opposite the Anna Park entrance gate</dd></dl></div>
+    <div class="map rv" data-rv="zoom"><svg viewBox="0 0 600 420" role="img" aria-label="Map sketch: Stackly Academy on Omalur Main Road, 400 metres north of Five Roads junction, opposite Anna Park">
+      <rect width="600" height="420" fill="#E3EDF9"/><rect x="330" y="60" width="200" height="130" rx="14" fill="#CFE6D8"/><text x="430" y="130" text-anchor="middle" font-family="Albert Sans,sans-serif" font-size="15" fill="#155238">Anna Park</text>
+      <path d="M290 0 V420" stroke="#fff" stroke-width="26"/><path d="M0 330 H600" stroke="#fff" stroke-width="22"/><path d="M0 420 L600 180" stroke="#fff" stroke-width="16"/>
+      <text x="300" y="30" font-family="Albert Sans,sans-serif" font-size="13" fill="#4A5F80" transform="rotate(90 300 30)">Omalur Main Road</text>
+      <circle cx="290" cy="330" r="16" fill="#1C2E48"/><text x="316" y="360" font-family="Albert Sans,sans-serif" font-size="14" fill="#1C2E48">Five Roads</text>
+      <path d="M290 318 V150" stroke="#1650C4" stroke-width="4" stroke-dasharray="6 8"/>
+      <circle cx="250" cy="130" r="22" fill="#1650C4"/><path d="M250 118 l10 16 h-20z" fill="#fff"/><text x="60" y="118" font-family="Caslon Display,serif" font-size="20" fill="#1C2E48">Stackly Academy</text><text x="60" y="142" font-family="Albert Sans,sans-serif" font-size="13" fill="#4A5F80">400 m from Five Roads</text>
+    </svg></div>
+  </div>
+</section>
+
+<section class="sec sec--alt" aria-labelledby="hrs-t">
+  <div class="wrap">
+    <div class="sh rv" data-rv="up"><p class="eyebrow">Office hours</p><p class="kicker">When someone will pick up</p><h2 id="hrs-t">Office and <em class="acc">lab timings</em></h2></div>
+    <div class="tbl-wrap rv" data-rv="up"><table class="tbl"><caption class="sr">Office hours</caption><thead><tr><th scope="col">Service</th><th scope="col">Days</th><th scope="col">Hours</th></tr></thead><tbody><tr><td data-label="Service">Admissions office</td><td data-label="Days">Monday to Saturday</td><td data-label="Hours">9:00 am to 7:00 pm</td></tr><tr><td data-label="Service">Computer labs</td><td data-label="Days">Monday to Saturday</td><td data-label="Hours">8:00 am to 10:00 pm</td></tr><tr><td data-label="Service">Library</td><td data-label="Days">Monday to Sunday</td><td data-label="Hours">8:00 am to 8:00 pm</td></tr><tr><td data-label="Service">Campus tours</td><td data-label="Days">Saturday</td><td data-label="Hours">11:00 am, about 45 minutes</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="cfaq-t">
+  <div class="wrap">
+    <div class="sh rv" data-rv="up"><p class="eyebrow">Contact questions</p><p class="kicker">Before you call</p><h2 id="cfaq-t">Quick <em class="acc">answers</em></h2></div>
+    <div class="faq rv" data-rv="up"><details><summary>Can I visit without an appointment?</summary><p>Yes, during office hours. For a campus tour with a mentor, come on Saturday at 11 am.</p></details><details><summary>How fast do you reply to emails?</summary><p>Within one working day. Enquiries after 7 pm on Saturday get a reply on Monday.</p></details><details><summary>Can my parents join the counselling call?</summary><p>Of course. Many learners bring a parent or spouse; tell us when you book and we will plan a longer slot.</p></details></div>
+  </div>
+</section>
+</main><footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div class="ftr__brand"><a class="brand" href="index.html" data-splash aria-label="Stackly Academy home"><img src="logo-dark.webp" alt="Stackly" width="137" height="40"></a>
+        <p>12 Omalur Main Road, Salem, Tamil Nadu 636004. Office open Monday to Saturday, 9 am to 7 pm.</p>
+        <div class="social"><a href="404.html" aria-label="Stackly Academy on Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a><a href="404.html" aria-label="Stackly Academy on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7"/></svg></a><a href="404.html" aria-label="Stackly Academy on YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a><a href="404.html" aria-label="Stackly Academy on X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20"/></svg></a></div></div>
+      <div><h2>Navigate</h2><ul><li><a href="index.html">Home</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h2>Courses</h2><ul><li><a href="404.html">Full-stack web</a></li><li><a href="404.html">Java backend</a></li><li><a href="404.html">UI/UX design</a></li><li><a href="404.html">Data analytics</a></li></ul></div>
+      <div><h2>Resources</h2><ul><li><a href="404.html">Blog</a></li><li><a href="404.html">Careers</a></li><li><a href="404.html">Privacy policy</a></li><li><a href="404.html">Terms and conditions</a></li></ul></div>
+    </div>
+    <div class="ftr__base"><span>© 2026 Stackly Academy, a Stackly Technologies company</span><span>admissions@stacklyacademy.in · +91 427 245 0190</span></div>
+  </div>
+</footer>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-t"><div class="modal__box"><h2 id="modal-t">Notice</h2><p></p><button class="btn btn--solid" type="button">OK</button></div></div>
+<script src="script.js"></script>
+</body>
+</html>
